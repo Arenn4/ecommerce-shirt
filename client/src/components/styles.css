@@ -1,0 +1,432 @@
+html{
+    padding: 5px;
+}
+.card{
+    width: 300px;
+}
+
+/* Start app grid layout */
+.app-container{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 75px 110px 1000px 100px;
+}
+.client-container{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 75px 1000px 100px;
+}
+.one{
+    grid-column: 1/-1;
+}
+.two{
+    grid-column: 3/-1;
+}
+.three{
+    grid-column: 1/3;
+}
+.four{
+    grid-column: 3/-1;
+}
+.five{
+    grid-column:1/-1
+}
+
+/* end grid layout */
+
+.page-footer{
+    margin-bottom: 5px;
+}
+.shirt-container{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+    justify-items: center;
+    grid-gap: 25px;
+    overflow: scroll;
+    height: 100%;
+}
+.label-icon{
+    margin: auto;
+}
+
+.card-container{
+    width: 300px;
+    height: 450px;
+}
+.shirt-img{
+    height: 450px;
+}
+.card-content{
+    height: 175px;
+    overflow: scroll;
+}
+
+.row{
+    padding: 5px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+.filter-container{
+    position: relative;
+    display: inline-block;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    /* border: 2px solid red; */
+}
+
+.admin-inputs{
+    /* border: solid 2px red; */
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+.inputs-title{
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+.admin-btn{
+    position: relative;
+    top: -50px;
+    left: 5%;
+    margin-top: 5px;
+}
+.new-item{
+    height: 100px;
+}
+.admin-input-contain{
+    height: 130px;
+}
+
+.checkbox-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(20px, 20));
+}
+.search-container{
+    width: 400px;
+    height: 60px;
+    margin: 0px;
+    margin-left: 300px;
+    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+}
+.search-input{
+    height: 50px;
+    top: 3px;
+}
+.shopping-cart{
+    position: relative;
+    height: 60px;
+    width: 300px;
+    display: inline-block;
+}
+.main-contain{
+    margin-left:50px;
+}
+.check-contain{
+    position: relative;
+    padding: 10px;
+    
+}
+
+.collapsible-header{
+    color:white;
+    font-size: 20px;
+}
+
+.contact-container{
+    position: relative;
+    height: auto;
+    width: auto;
+    /* border: solid 2px red; */
+    grid-column: 1/-1;
+    grid-row: 2/4
+}
+.contactus-container{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 75px 110px 500px 100px;
+}
+
+
+
+/* Nav hamburger menu */
+.hamMenu{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+.sideMenu{
+    height: 330px;
+    width: 200px;
+    background-color: rgba(14, 63, 151, 0.505);
+    position: absolute;
+    left: 70%;
+    transform: left 3s;
+    z-index: 10;
+
+}
+@media only screen and (min-width: 993px){
+    .hambutt{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .4);
+    position: absolute;
+    left: 65%;
+    top: 10px;
+    display: none;
+    }
+}
+.menuOptions{
+    display: block;
+    position: relative;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 5px;
+    /* padding-right: 20px; */
+}
+
+.nav-btn{
+    margin-left: 5px;
+}
+
+/* tablet and smaller */
+@media only screen and (max-width: 992px){
+    .hambutt{
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, .4);
+        position: absolute;
+        left: 80%;
+        top: 4px;
+    }
+    .hamMenu{
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+    }
+    .search-container{
+        color: white;
+        width: auto;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 5px;
+        align-content: center;
+        border-bottom: 2px solid white;
+    }
+    a#nav-title.brand-logo{
+        font-size: 20px;
+    }
+    .app-container{
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 75px 110px 1000px 100px;
+    }
+    .one{
+        grid-column: 1/-1;
+    }
+    .two{
+        grid-column: 1/-1;
+    }
+    .three{
+        grid-column: 1/4;
+    }
+    .four{
+        grid-column: 4/-1;
+    }
+    .five{
+        grid-column:1/-1
+    }
+    .menuOptions{
+        display: block;
+        position: relative;
+        font-size: 25px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        padding-bottom: 5px;
+        /* padding-right: 20px; */
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .app-container{
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 75px 110px 1000px 100px;
+    }
+    .one{
+        grid-column: 1/-1;
+    }
+    .two{
+        grid-column: 1/-1;
+    }
+    .three{
+        grid-column: 1/4;
+    }
+    .four{
+        grid-column: 4/-1;
+    }
+    .five{
+        grid-column:1/-1
+    }
+    .menuOptions{
+        display: block;
+        position: relative;
+        font-size: 25px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        padding-bottom: 5px;
+        /* padding-right: 20px; */
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .app-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 75px 110px 1000px 100px;
+    }
+    .client-container{
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 75px 1000px 100px;
+    }
+    .contactus-container{
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 75px 110px 500px 100px;
+    }
+    .one{
+        grid-column: 1/4;
+    }
+    .two{
+        grid-column: 1/4;
+    }
+    .three{
+        grid-column: 1/1;
+    }
+    .four{
+        grid-column: 2/-1;
+        align-content: center;
+    }
+    .five{
+        grid-column:1/-1
+    }
+    .shirt-container{
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+        justify-items: left;
+        overflow: scroll;
+        height: 100%;
+    }
+    .card-container{
+        width: 250px;
+        height: 450px;
+    }
+    .shirt-img{
+        height: 450px;
+    }
+    .card-content{
+        height: 190px;
+        width: 230px;
+        overflow: scroll;
+    }
+    .card{
+        width: 230px;
+    }
+    .menuOptions{
+        display: block;
+        position: relative;
+        font-size: 20px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        padding-bottom: 5px;
+        /* padding-right: 20px; */
+    }
+}
+
+
+/* Iphone 5 and smaller to fit */
+@media only screen and (max-width: 400px){
+    .app-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 75px 110px 1000px 100px;
+    }
+    .one{
+        grid-column: 1/4;
+    }
+    .two{
+        grid-column: 1/4;
+    }
+    .three{
+        grid-column: 1/1;
+    }
+    .four{
+        grid-column: 2/-1;
+        align-content: center;
+    }
+    .five{
+        grid-column:1/-1
+    }
+    .shirt-container{
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+        justify-items: left;
+        overflow: scroll;
+        height: 100%;
+    }
+    .card-container{
+        width: 180px;
+        height: 450px;
+    }
+    .shirt-img{
+        height: 450px;
+    }
+    .card-content{
+        height: 190px;
+        width: 180px;
+        overflow: scroll;
+    }
+    .card{
+        width: 180px;
+    }
+    .menuOptions{
+        display: block;
+        position: relative;
+        font-size: 15px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        padding-bottom: 5px;
+        /* padding-right: 20px; */
+    }
+}

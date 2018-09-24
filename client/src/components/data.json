@@ -1,0 +1,69 @@
+
+[
+    {
+        "color": "black",
+        "description": "Black button-down long sleeve shirt",
+        "img": "https://images.unsplash.com/photo-1527517150423-d5529b9d9a17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fc976d491ea0b9eb7b6c92d72e561de2&auto=format&fit=crop&w=700&q=80",
+        "title": "Black Button-Down"
+    },
+    {
+        "color": "white",
+        "description": "White, 100% cotton",
+        "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=68f94557dbb840c9db2e39d1226023ec&auto=format&fit=crop&w=1000&q=80",
+        "title": "White Short-Sleeve "
+    },
+    {
+        "color": "black",
+        "description": "Black V-neck, 100% cotton",
+        "img": "https://images.unsplash.com/photo-1511298521967-cefc9f26ec55?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=17aa7fb99a12780295700c57fea43d02&auto=format&fit=crop&w=671&q=80",
+        "title": "Black V-Neck"
+    },
+    {
+        "color": "blue",
+        "description": "Light blue long sleeve",
+        "img": "https://images.unsplash.com/photo-1488371934083-edb7857977df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=79e516e5e50dfd4f8e0764fdfa5d5b1f&auto=format&fit=crop&w=628&q=80",
+        "title": "Blue Long-Sleeve"
+    },
+    {
+        "color": "blue",
+        "description": "Dark-blue long sleeve button-down",
+        "img": "",
+        "title": "Blue Button-Down"
+    },
+    {
+        "color": "white",
+        "description": "White Pattern short sleeve",
+        "img": "https://images.unsplash.com/photo-1529929269095-23d97aee642e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=64cbd991e17d7e240e027ea870a5a1ac&auto=format&fit=crop&w=634&q=80",
+        "title": "White Short-Sleeve Waffle"
+    },
+    {
+        "color": "black",
+        "description": "White and black patterned shirt",
+        "img": "https://images.unsplash.com/photo-1506465080372-a2c256c8cffc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed7d47735353cadf79455c27748fad0a&auto=format&fit=crop&w=701&q=80",
+        "title": "Black & White Pattern"
+    },
+    {
+        "color": "grey",
+        "description": "Grey short-sleeve shirt, with front pocket",
+        "img": "https://images.unsplash.com/photo-1507081323647-4d250478b919?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0fa4d3f142cecc5b16f59f21f8630923&auto=format&fit=crop&w=700&q=80",
+        "title": "Grey Short-Sleeve"
+    },
+    {
+        "color": "black",
+        "description": "Black base long-sleeve with camo sleeves",
+        "img": "https://images.unsplash.com/photo-1535639818669-c059d2f038e6?ixlib=rb-0.3.5&s=0a903eceb6611c62e27742a02d537ad9&auto=format&fit=crop&w=634&q=80",
+        "title": "Black Long-Sleeve"
+    },
+    {
+        "color": "orange",
+        "description": "Orange base short-sleeve with black stripes",
+        "img": "https://images.unsplash.com/photo-1484517062256-430351efcbcf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=49a80f4e83f5568a41b90811a75b1b44&auto=format&fit=crop&w=687&q=80",
+        "title": "Orange Pattern Short-Sleeve"
+    },
+    {
+        "color": "green",
+        "description": "Green short-sleeve shirt with fron pocket",
+        "img": "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eefa9be00575de989c32ab5dbe1315a9&auto=format&fit=crop&w=634&q=80",
+        "title": "Green Short-Sleeve"
+    }
+]
